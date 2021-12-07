@@ -40,7 +40,7 @@ Final project about adoptable dogs and cats in shelters.
 - Majority of dogs in shelters do well in an environment with other dogs and children
 - About half the dogs in shelters do well in an environment with cats and the other half do not do well in an environment with children
 - There is a map of states with a logaritmic scale of adoptable dogs. Please open up the jupyer notebook on your own machine to take a look at it as it does not load up on github.
-!(Desktop/dogs_num.jpg)
+![](images/dogs_num.png)
 
 ## Get all available dog photos
 - Make sure none of the urls are broken while downloading dog photos or else you will run into an error
