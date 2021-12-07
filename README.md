@@ -1,6 +1,8 @@
 # Sta141b-final
 Final project about adoptable dogs and cats in shelters.
 
+# Dog Data
+
 ## Scrape API for data for adoptable dogs
 
 ### Setup
@@ -39,11 +41,19 @@ Final project about adoptable dogs and cats in shelters.
 - Majority of dogs in shelters have current shots
 - Majority of dogs in shelters do well in an environment with other dogs and children
 - About half the dogs in shelters do well in an environment with cats and the other half do not do well in an environment with children
-- There is a map of states with a logaritmic scale of adoptable dogs. Please open up the jupyer notebook on your own machine to take a look at it as it does not load up on github.
+- There is a map of states with a logaritmic scale of adoptable dogs. 
 ![](images/dogs_num.png)
+- Get the data of the human population 
+- Merge tables
+- Plot a regression line of dog adoptions to the human population
+    + As the human population increases, so does the number of dog adoptions
+- There is a map of states with the proportion of dog adoptions to humans
+![](images/dog_prop.png)
 
 ## Get all available dog photos
 - Make sure none of the urls are broken while downloading dog photos or else you will run into an error
+
+# Cat Data
 
 ## Scrape API for cat data
 - Do the same thing as the dog data but for cats this time
@@ -58,7 +68,13 @@ Final project about adoptable dogs and cats in shelters.
     + Again there is a bias towards states with larger populations
 
 ## Visualizations
-- There is a map of states with a logaritmic scale of adoptable cats. Please open up the jupyer notebook on your own machine to take a look at it as it does not load up on github.
+- There is a map of states with a logaritmic scale of adoptable cats. 
+![](images/cat_num.png)
+- Join the cat data with human population data
+- Plot a regression line of cat adoptions to the human population
+    + As the human population increases, so does the number of cat adoptions
+- There is a map of states with the proportion of cat adoptions to the human population
+![](images/cat_prop.png)
 - The most common cat breed in shelters is domastic shorthair
     + They make up the majority of cats in shelters
 - There are few senior cats in shelters as the rest are evenly split between being young, adult, or baby
@@ -80,36 +96,36 @@ Final project about adoptable dogs and cats in shelters.
 ## Get all available cat photos
 - Same process as getting all dog photos
 
-## Image Classification 
+# Image Classification 
 
-### Be able to load all images
+## Be able to load all images
 - If you are unable to load the image, then the file is likely corrupt and the data loader will also be unable to process the image
 - If the image does not load, delete the image 
 
-### Imports
+## Imports
 - Import tensorflow to build your neural network 
 
-### Preprocessing
+## Preprocessing
 - Rescale your data
 - Split your data into train and test sets
 
-### Build your model
+## Build your model
 - Using a sequential model
 - Add four convolutional layers with a relu activation function
 - Add a flatening layer
 - Add another Dense hidden layer with a relu activation function
 - Add your output layer with a sigmoid activation function
 
-### Compile your model
+## Compile your model
 
-### Fit train data to model
+## Fit train data to model
 - Add early stopping to callback to prevent overfitting
 - Add validation data to see how the model is performing on unseen data
 
-### Make image predictions on unseen data
+## Make image predictions on unseen data
 - Build a function that can take in an image and run it through the model to make a prediction on if the image is a dog or a cat
     + Can input any image to this function 
 
-### Validate the test data
+## Validate the test data
 - Check how well the model performs on unseen data 
     + Measuring how well the model is doing with accuracy
