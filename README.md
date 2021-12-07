@@ -48,7 +48,7 @@ Final project about adoptable dogs and cats in shelters.
 - Plot a regression line of dog adoptions to the human population
     + As the human population increases, so does the number of dog adoptions
 - There is a map of states with the proportion of dog adoptions to humans
-![](images/dog_prop.png)
+![](images/dogs_prop.png)
 
 ## Get all available dog photos
 - Make sure none of the urls are broken while downloading dog photos or else you will run into an error
@@ -69,12 +69,12 @@ Final project about adoptable dogs and cats in shelters.
 
 ## Visualizations
 - There is a map of states with a logaritmic scale of adoptable cats. 
-![](images/cat_num.png)
+![](images/cats_num.png)
 - Join the cat data with human population data
 - Plot a regression line of cat adoptions to the human population
     + As the human population increases, so does the number of cat adoptions
 - There is a map of states with the proportion of cat adoptions to the human population
-![](images/cat_prop.png)
+![](images/cats_prop.png)
 - The most common cat breed in shelters is domastic shorthair
     + They make up the majority of cats in shelters
 - There are few senior cats in shelters as the rest are evenly split between being young, adult, or baby
