@@ -1,7 +1,6 @@
 # Sta141b-final: Air Singh, Ilham Tokhi, Jaehyeon Park, James Chapman, Kate Johnson
 Final project about adoptable dogs and cats in shelters.
 
-
 # Dog Data
 
 ## Scrape API for data for adoptable dogs
