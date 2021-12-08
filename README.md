@@ -11,7 +11,7 @@ Final project about adoptable dogs and cats in shelters.
 - Get the token from the API in order to access the API
 
 ### Get the Dataframe
-- Using a for loop, get the data for first 500 pages of dogs
+- Using a for loop, get the data for first 100 pages of dogs
     + Limit page for 100 results per page
     + Set to get adoptable dogs
     + Sort pets randomly in order to try to get an accurate sample from different states
