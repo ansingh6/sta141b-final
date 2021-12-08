@@ -12,7 +12,7 @@ Final project about adoptable dogs and cats in shelters.
 
 ### Get the Dataframe
 - Using a for loop, get the data for first 100 pages of dogs
-    + Limit page for 100 results per page
+    + Limit page for 500 results per page
     + Set to get adoptable dogs
     + Sort pets randomly in order to try to get an accurate sample from different states
 - Clean up the DataFrame and get preliminary information on it
