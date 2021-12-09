@@ -70,7 +70,7 @@ Final project about adoptable dogs and cats in shelters.
 
 ## SQL Analysis
 - Find the total number of male and female cats in shelters
-    + There are slightly more male cats than female cats in shelters, but it is very evenly split
+    + There are more female cats than male cats in shelters, but it is approximatly evenly split
 - Find the total number of cats per state
     + Again there is a bias towards states with larger populations
 
