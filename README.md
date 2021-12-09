@@ -3,10 +3,19 @@ Final project about adoptable dogs and cats in shelters.
 
 # Grading Aspects
 - Project organization, writeup readability, and overall conclusions
+    + Project is well organized on github repo
+    + Writeup on README explains most cells to reader
+    + Conclusions are well documented in README
 - Code quality, readability, and efficiency
+    + Code is easily readable and is broken up into small cells
+    + Use of loops instead of multiple lines of the same code
 - Data munging
+    + Use of data munging while making visualizations to extract features
 - Data visualization
+    + Plenty of visualizations for features of data
 - Data extraction
+    + Use of Petfinder API to extract data
+    + Additionaly, use of Bearer token needed to access data
 
 # Dog Data
 
