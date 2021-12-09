@@ -9,8 +9,9 @@ Final project about adoptable dogs and cats in shelters.
 - Code quality, readability, and efficiency
     + Code is easily readable and is broken up into small cells
     + Use of loops instead of multiple lines of the same code
+    + Use of tqdm to let user know how long it will take for the cell to finish running
 - Data munging
-    + Use of data munging while making visualizations to extract features
+    + Use of data munging while making visualizations to extract features for the visualizations
 - Data visualization
     + Plenty of visualizations for features of data
 - Data extraction
@@ -134,6 +135,8 @@ Final project about adoptable dogs and cats in shelters.
 ## Preprocessing
 - Rescale your data
 - Split your data into train and test sets
+    + The split was approximatly a ratio of 0.80 in the train set and 0.20 in the test set
+    + The split was done manually on our machine, there is no code in the notebook to do this split
 
 ## Build your model
 - Using a sequential model
