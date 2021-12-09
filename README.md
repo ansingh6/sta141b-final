@@ -67,6 +67,14 @@ Final project about adoptable dogs and cats in shelters.
 ![](images/dogs_prop.png)
 
 ## Get all available dog photos
+- Set up the data directory to include train and test and within those directories, a folder for cats and dogs. Example of what our directory looks like is shown below
+    + data
+        - Train
+            + doggie
+            + catto
+        - Test
+            + doggie_test
+            + catto_test
 - Make sure none of the urls are broken while downloading dog photos or else you will run into an error
 
 # Cat Data
