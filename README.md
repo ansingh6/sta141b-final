@@ -1,6 +1,13 @@
 # Sta141b-final: Air Singh, Ilham Tokhi, Jaehyeon Park, James Chapman, Kate Johnson
 Final project about adoptable dogs and cats in shelters.
 
+# Grading Aspects
+- Project organization, writeup readability, and overall conclusions
+- Code quality, readability, and efficiency
+- Data munging
+- Data visualization
+- Data extraction
+
 # Dog Data
 
 ## Scrape API for data for adoptable dogs
