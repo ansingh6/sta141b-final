@@ -75,7 +75,9 @@ Final project about adoptable dogs and cats in shelters.
         - Test
             + doggie_test
             + catto_test
+- Data directory was too large to upload to github
 - Make sure none of the urls are broken while downloading dog photos or else you will run into an error
+    + If the url is broken, append it to the broken url list instead of trying to extract that picture
 
 # Cat Data
 
