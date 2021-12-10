@@ -158,3 +158,9 @@ Final project about adoptable dogs and cats in shelters.
 ## Validate the test data
 - Check how well the model performs on unseen data 
     + Measuring how well the model is doing with accuracy
+
+# Results and Conclusions
+- Using Data technology we are able to investigate and discover information from websites and a variety of API’s. 
+- By the exploration of adoptable dogs from the Petfinder API, it is possible to have found some of the characteristics of dogs from the website that are adoptable, like the size, gender, age, and breed, that all have some extent of significance. As described in “Visualizations”, there are notable differences in the dogs in the commonality of the dogs that are put up for adoption
+- Distribution of these animals appears more in the south central region of the United states, and in areas with higher population density. Visualizations of the data aid in giving context and suggesting further analysis to take with the variables used. 
+- Using image classification and convolutional neural networks provides further extent of our understanding of collecting and using information provided from the web. The model shows how to take images and with high accuracy report what the image is of. 
